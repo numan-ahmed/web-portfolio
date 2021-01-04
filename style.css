@@ -1,5 +1,5 @@
 body{
-
+    margin:0px;
     font-family: 'Viga', sans-serif;
 }
 
@@ -26,4 +26,28 @@ h1{
 .half_width img {
     width:100%;
     margin-top:-60px;
+}
+
+.top_banar{
+
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+section{
+    height:500px;
+}
+.link_botton{
+    background-image:linear-gradient(45deg,tomato,lightsalmon);
+    text-decoration: none;
+    border:2px solid tomato;
+    border-radius:5px;
+    padding:10px 20px ;
+    color:seashell;
+    font-size:20px;
+    margin-top:30px;
+    font-weight: bold;
+    
+
 }
