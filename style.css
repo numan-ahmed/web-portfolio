@@ -10,7 +10,7 @@ h1{
 h2{
     font-size:40px;
 }
-.name_highlite{
+.oreng_highlite{
 
     color:chocolate;
     font-family:'Lobster', cursive;
@@ -26,7 +26,6 @@ h2{
 
 .half_width img {
     width:100%;
-    margin-top:-60px;
 }
 
 .top_banar{
@@ -38,17 +37,61 @@ h2{
 
 section{
     height:500px;
+    padding-bottom: 150px;
 }
-.link_botton{
-    background-image:linear-gradient(45deg,tomato,lightsalmon);
-    text-decoration: none;
-    border:2px solid tomato;
-    border-radius:5px;
-    padding:10px 20px ;
-    color:seashell;
-    font-size:20px;
-    margin-top:30px;
-    font-weight: bold;
-    
 
+
+.link_botton {
+    background-image: linear-gradient(45deg,tomato,lightsalmon);
+    text-decoration: none;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    padding: 10px 4px;
+    color: seashell;
+    font-size: 15px;
+    /* margin-top: 0px; */
+    font-weight: bold;
+}
+.drem_area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.expereience_area{
+    margin-top:50px;
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single_expereince{
+
+    box-shadow:10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background:white
+   
+}
+.expereience_head{
+    text-align: center;
+
+
+    
+    
+}
+#full_stak{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,rgb(248, 191, 168),tomato);
+    border-image-slice: 1;
+}
+
+#baby_deb{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size:12px;
 }
